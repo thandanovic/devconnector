@@ -1,0 +1,14 @@
+
+---Section 1-2
+1. Install node js
+2. Install VS Code with all extensions
+3. Install EXPRESS with neccessarry packages
+4. Create server.js file
+5. Run server
+6. Install nodemon for automatic tracking off changes
+7. Configure mongo db on mlab
+8. Include mongo db and connect to it from server
+9. Create route files and enable routing
+
+--Section 3 - Api routes and JWT authentication
+
