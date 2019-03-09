@@ -28,6 +28,13 @@ class Register extends Component {
 
     }
 
+    componentDidMount(){
+        if(this.props.auth.isAuthenticated){
+            this.props.history.push('/dashboard');
+        }
+    }
+
+
     componentWillReceiveProps(nextProps){
         
         if(nextProps.errors){
@@ -55,7 +62,6 @@ class Register extends Component {
 
         return (
             <div className="register"> 
-                <div className="container">
                     <div className="row">
                         <div className="col-md-8 m-auto">
                             <h1 className="display-4 text-center">Sign Up</h1>
@@ -96,7 +102,6 @@ class Register extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
         )
     }
 }

@@ -3,6 +3,12 @@ img {
   width: 100%;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .landing {
   position: relative;
   background: url('./img/showcase.jpg') no-repeat;
@@ -15,6 +21,10 @@ img {
 
 .landing-inner {
   padding-top: 80px;
+}
+
+.main-container {
+  margin-bottom: 75px;
 }
 
 .dark-overlay {
